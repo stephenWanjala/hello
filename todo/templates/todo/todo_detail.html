@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+  <h2>Todo Info</h2>
+  <p>Title: {{ todo.title }}</p>
+  <p>Description: {{ todo.description }}</p>
+    <p>Completed: {{ todo.completed }}</p>
+</div>
+{% endblock %}
